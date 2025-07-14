@@ -18,7 +18,11 @@ return {
         -- Normal = { bg = "#000000" },
       },
       astrodark = { -- a table of overrides/changes when applying the astrotheme theme
-        -- Normal = { bg = "#000000" },
+        Normal = {
+		bg = "#000000",
+		text = "#E0E2EB",
+		comment = "#B2B4BD"
+	},
       },
     },
     -- Icons can be configured throughout the interface
